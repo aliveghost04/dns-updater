@@ -1,0 +1,23 @@
+{
+  "name": "dns-updater",
+  "version": "1.0.0",
+  "description": "Update Cloud Flare DNS to erickjimenez.tk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dns",
+    "cloud",
+    "flare",
+    "update"
+  ],
+  "author": "Erick Jiménez",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "node-cron": "^1.2.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
