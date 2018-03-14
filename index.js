@@ -38,7 +38,7 @@ pool.getConnection((err, connection) => {
   );
 });
 
-cron.schedule('*/2 * * * *', () => {
+cron.schedule('*/5 * * * *', () => {
   request({
     uri: ipCheckUrl,
     json: true
